@@ -18,7 +18,7 @@
 > > > ![Captura de tela 2023-11-27 001328](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/f6c69fd7-eb5b-495d-bd08-b5ff80de2ff4)
 
 > > # João Victor Nunes (jvnl@cesar.school)
-> > > ![foto jv](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/92b8df53-d2bb-4d5e-a571-4a7ed7ff070e)
+> > > ![Captura de tela 2024-03-15 114739](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/5817a3fa-4ebf-4bfb-a823-2dac6f53b01b)
 
 > > # LINK DO JIRA
 > > > https://projetofdsjgcl.atlassian.net/jira/software/projects/SP/boards/2/backlog
