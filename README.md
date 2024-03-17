@@ -22,7 +22,7 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 
 ## ⚙️ PROOCESSO
 
-# ENTREGA1
+# ENTREGA 1
 
 <p>LINKS</p>
 <ul>
