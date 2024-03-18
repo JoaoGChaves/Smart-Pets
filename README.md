@@ -36,6 +36,11 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
       >LINK DO FIGMA (LO-FI)</a
     >
   </li>
+   <li>
+    <a  href="https://docs.google.com/document/d/1bLvftafdn3u3OefO6wpTDC__BpuaUENlOv_5a1cF7oQ/edit?pli=1"
+      >DOC COM AS SKETCHES E STORYBOARDS</a
+    >
+  </li>
   <li>
 
 > # 📸 PRINT DO BACKLOG
