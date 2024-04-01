@@ -11,6 +11,7 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 - **Matheos Guerra** (mog@cesar.school)
 - ![Captura de tela 2023-11-26 235937](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/40229f84-edd5-4686-a568-01bc698e766b)
 
+
 - **Gustavo Laporte** (ghml@cesar.school)
 - ![Captura de tela 2023-11-26 235911](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/d2949de2-b259-4da7-a981-737beaba187e)
 
@@ -19,6 +20,9 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 
 - **João Victor Nunes** (jvln@cesar.school)
 - ![Captura de tela 2024-03-15 114739](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/5817a3fa-4ebf-4bfb-a823-2dac6f53b01b)
+
+- **Juliana van der Linden Mota** (jvdlm@cesar.school)
+- ![Captura de tela 2024-04-01 084751](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/09b6ad2d-20d9-49c9-9181-851e2979f07f)
 
 ## ⚙️ PROOCESSO
 
