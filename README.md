@@ -55,4 +55,28 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 >> https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/ae711391-2869-4d1b-9508-036b4b9bb7c4
 
 
+# ENTREGA 2
+
+<p>LINKS</p>
+<ul>
+  <li>
+    <a  href="https://projetofdsjgcl.atlassian.net/jira/software/projects/SP/boards/2/backlog"
+      >LINK DO JIRA</a
+    >
+  </li>
+    <li>
+
+  <a  href="https://docs.google.com/document/d/1WFLGlzTSYLoudt8Mv8jOS5vpeWCJ7ZQpH3WI84K27-0/edit"
+      >PROGRAMAÇÃO EM PAR EXPERIMENTADA</a
+    >
+  </li>
+  <li>
+
+> # 📸 QUADRO DA SPRINT 1 ATUALIZADO
+>> 
+> # 🎥 SCREENCAST DA APLICAÇÃO
+>> 
+
+
+
   
