@@ -95,7 +95,12 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
       >PROGRAMAÇÃO EM PAR EXPERIMENTADA</a
     >
   </li>
-  <li>
+     <li>
+    <a  href="https://www.figma.com/file/XbcnlwvPLJLr6zjYNFuf1v/Smart-Pets-team-library?type=design&node-id=2311-3&mode=design&t=1viI5jyWBSJ7Gumm-0"
+      >LINK DO FIGMA ATUALIZADO (LO-FI)</a
+    >
+  </li>
+   <li>
 
 > # 📸 DIAGRAMA DE ATIVIDADES ATUALIZADO
 >> 
