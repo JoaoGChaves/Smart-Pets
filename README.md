@@ -104,9 +104,12 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 
 > # 📸 DIAGRAMA DE ATIVIDADES ATUALIZADO
 >> 
-> # 📸 QUADRO DA SPRINT 1 ATUALIZADO
+> # 📸 QUADRO DA SPRINT ATUALIZADO
 >> 
 > # 🎥 SCREENCAST DA APLICAÇÃO ATUALIZADA
->> 
+>>
+> # 🎥 SCREENCAST DO LO-FI
+>>
+
 
   
