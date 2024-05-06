@@ -109,7 +109,7 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 > # 🎥 SCREENCAST DA APLICAÇÃO ATUALIZADA
 >>
 > # 🎥 SCREENCAST DO LO-FI
->>
+>> https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/1e65ec4e-24ef-43f1-a837-68b5e2a5641c
 
 
   
