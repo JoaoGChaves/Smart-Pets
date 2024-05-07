@@ -6,54 +6,92 @@
 {% endblock %}
 
 {% block 'dashboard' %}
-<div class="container">
-    <div class="row">
-
-        <div class="col-md card-dashboard">
-            <p class="text-card">Adicionar clientes</p>
+    <div class="container">
+        <div class="row">
+            <div onclick="exibir_form('1')" class="col-md card-dashboard">
+                <p class="text-card">Adicionar clientes</p>
+            </div>
+            <div onclick="exibir_form('2')" class="col-md card-dashboard">
+                <p class="text-card">Atualizar clientes</p>
+            </div>
         </div>
+            <div id="adicionar-cliente" class="adicionar-cliente">
+                <form action="{% url 'clientes' %}" method="POST">{% csrf_token %}
+                    <div class="row">
+                        <div class="col-md">
+                            <p>Nome:</p>
+                            <input type="text" class="form-control" placeholder="Primeiro nome" name="nome" value="{{nome}}">
+                        </div>
+                        <div class="col-md">
+                            <p>Sobrenome:</p>
+                            <input type="text" class="form-control" placeholder="Sobrenome" name="sobrenome" value="{{sobrenome}}">
+                        </div>
+                    </div>
+                    <br>
+                    <p>E-mail:</p>
+                    <input type="email" class="form-control" placeholder="nome@email.com" name="email" value="{{email}}"> 
+                    <br>
+                    <p>CPF:</p>
+                    <input type="text" class="form-control" placeholder="___.___.___-__" name="cpf" value="{{cpf}}">
+                    <hr style="background-color:gray;">
+                    <div class="add-pets">
+                        <h3>Pets</h3>
+                        <span class="btn-add-pets" onclick="add_pet()">+ Adicionar um Pet</span>
 
-        <div class="col-md card-dashboard">
-            <p class="text-card">Atualizar cliente</p>
-        </div>
+                        <div id="form-pet">
+                            {%for pet, raca,idade in pets%}
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <input type='text' placeholder='pet' class='form-control' name='pet' value="{{pet}}">
+                                        </div>
+                                        <div class="col-md">
+                                            <input type='text' placeholder='raca' class='form-control' name='raca' value="{{raca}}">
+                                        </div>
+                                        <div class="col-md">
+                                            <input type='number' placeholder='idade' class='form-control' name='idade' value="{{idade}}">
+                                        </div>
+                                    </div>
+                            {%endfor%}
+                        </div>
+                    </div>
+                    <br>
+                    <input type="submit" value="Cadastrar" class="btn-principal">
+
+                </form>
+            </div>    
+
+            <div id="att_cliente">
+                <p></p>
+                <select id="cliente-select" onchange="dados_cliente()" class="form-control">
+                    {%for cliente in clientes%}
+                    <option value="{{cliente.id}}">{{cliente.nome}}</option>
+                    {%endfor%}
+                </select>
+                <br>
+                <hr>
+                <div id="form-att-cliente">
+                    <p>Nome:</p>
+                    <input id="nome" type="text" class='form-control'>
+                    <p>Sobrenomeome:</p>
+                    <input id="sobrenome" type="text" class='form-control'>
+                    <p>E-mail:</p>
+                    <input id="email" type="text" class='form-control'>
+                    <p>CPF:</p>
+                    <input id="cpf" type="text" class='form-control'>
+
+                    <hr>
+                    <h3>Pets</h3>
+
+                    <div id="pets">
+                    </div>
+
+
+
+                </div>
+
+            </div>
 
     </div>
-
-        <div id="adicionar-cliente" class="adicionar-cliente">
-            <form action="{% url 'clientes' %}" method="POST">{% csrf_token %}
-                <div class="row">
-                    <div class="col-md">
-                        <p>Nome:</p>
-                        <input type="text" class="form-control" placeholder="Primeiro nome" name="nome" value="{{nome}}">
-                    </div>
-                    <div class="col-md">
-                        <p>Sobrenome:</p>
-                        <input type="text" class="form-control" placeholder="Sobrenome" name="sobrenome" value="{{sobrenome}}">
-                    </div>
-                </div>
-                <br>
-                <p>E-mail:</p>
-                <input type="email" class="form-control" placeholder="nome@email.com" name="email" value="{{email}}"> 
-                <br>
-                <p>CPF:</p>
-                <input type="text" class="form-control" placeholder="___.___.___-__" name="cpf" value="{{cpf}}">
-                <hr style="background-color:gray;">
-                <div class="add-pets">
-                    <h3>Pets</h3>
-                    <span class="btn-add-pets" onclick="add_pet()">+ Adicionar um Pet</span>
-
-                    <div id="form-pet">
-                        
-                    </div>
-
-
-                </div>
-                <br>
-                <input type="submit" value="Cadastrar" class="btn-principal">
-
-            </form>
-        </div>    
-
-</div>
-<script src="{% static 'clientes/js/clientes.js' %}"></script>
+    <script src="{% static 'clientes/js/clientes.js' %}"></script>
 {% endblock %}
