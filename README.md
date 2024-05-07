@@ -31,7 +31,7 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
 <p>LINKS</p>
 <ul>
   <li>
-    <a  href="https://projetofdsjgcl.atlassian.net/jira/software/projects/SP/boards/2/backlog"
+    <a  href="https://cesar-team-l03c63yk.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog"
       >LINK DO JIRA</a
     >
   </li>
@@ -48,11 +48,68 @@ Smat Pets é uma inovadora aplicação web projetada para simplificar e aprimora
   <li>
 
 > # 📸 PRINT DO BACKLOG
->> ![Captura de tela 2024-03-18 090414](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/7f4d5c77-3ab4-4dc7-9442-5df79cc2ced4)
+>> ![Captura de tela 2024-04-08 233010](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/67f6e768-d5d6-4495-9f79-4383605bbd5c)
 > # 📸 PRINT DO BOARD
 >> ![Captura de tela 2024-03-18 090346](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/de30c571-a4ad-4fcf-8445-e9380aa33325)
 > # 🎥 SCREENCAST
 >> https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/ae711391-2869-4d1b-9508-036b4b9bb7c4
+
+
+# ENTREGA 2
+
+<p>LINKS</p>
+<ul>
+  <li>
+    <a  href="https://cesar-team-l03c63yk.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog"
+      >LINK DO JIRA</a
+    >
+  </li>
+    <li>
+
+  <a  href="https://docs.google.com/document/d/1WFLGlzTSYLoudt8Mv8jOS5vpeWCJ7ZQpH3WI84K27-0/edit"
+      >PROGRAMAÇÃO EM PAR EXPERIMENTADA</a
+    >
+  </li>
+  <li>
+
+> # 📸 DIAGRAMA DE ATIVIDADES
+>> ![image](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/17be6ec6-3ee2-435b-805b-bbeb301f6e43)
+> # 📸 QUADRO DA SPRINT 1 ATUALIZADO
+>> ![image](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/a34eccfe-2ce4-43be-bc88-2998d1d3b9a0)
+> # 🎥 SCREENCAST DA APLICAÇÃO
+>> https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/999a1875-50c2-419f-a7d0-5f33b100eb5a
+
+
+# ENTREGA 3
+
+<p>LINKS</p>
+<ul>
+  <li>
+    <a  href="https://cesar-team-l03c63yk.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog"
+      >LINK DO JIRA</a
+    >
+  </li>
+    <li>
+
+  <a  href="https://docs.google.com/document/d/1WFLGlzTSYLoudt8Mv8jOS5vpeWCJ7ZQpH3WI84K27-0/edit"
+      >PROGRAMAÇÃO EM PAR EXPERIMENTADA</a
+    >
+  </li>
+     <li>
+    <a  href="https://www.figma.com/file/XbcnlwvPLJLr6zjYNFuf1v/Smart-Pets-team-library?type=design&node-id=2311-3&mode=design&t=1viI5jyWBSJ7Gumm-0"
+      >LINK DO FIGMA ATUALIZADO (LO-FI)</a
+    >
+  </li>
+   <li>
+
+> # 📸 DIAGRAMA DE ATIVIDADES ATUALIZADO
+>> ![Cópia do diagrama petshop drawio](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/768d2685-6a0e-4274-841e-f5bddd9bbbcc)
+> # 📸 QUADRO DA SPRINT ATUALIZADO
+>> ![Captura de tela 2024-05-06 195724](https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/cae95195-acee-45f8-baa5-6930ff34b422)
+> # 🎥 SCREENCAST DA APLICAÇÃO ATUALIZADA
+>>
+> # 🎥 SCREENCAST DO LO-FI
+>> https://github.com/JoaoGChaves/Smart-Pets/assets/142994236/1e65ec4e-24ef-43f1-a837-68b5e2a5641c
 
 
   
