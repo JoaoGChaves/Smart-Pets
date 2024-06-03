@@ -38,6 +38,10 @@ function add_pet(){
         return result.json()
     }).then(function(data){
         document.getElementById('form-att-cliente').style.display = 'block'
+        id=document.getElementById('id')
+        id.value=data['cliente_id']
+
+
         nome=document.getElementById('nome')
         nome.value=data['cliente']['nome']
 
@@ -55,10 +59,10 @@ function add_pet(){
 
         for(i=0;i<data['pets'].length; i++){
             console.log(data['pets'][i]['fields']['carro'])
-            div_pets.innerHTML += "<form action='' method''>\
+            div_pets.innerHTML += "<form action='/clientes/update_pet/"+ data['pets'][i]['id']+"' method='POST'>\
                 <div class='row'>\
                     <div class='col-md'>\
-                        <input class='form-control' type='text' name='pet' value='"  +data['pets'][i]['fields']['carro']+ "'>\
+                        <input class='form-control' type='text' name='pet' value='"  +data['pets'][i]['fields']['pet']+ "'>\
                     </div>\
                     <div class='col-md'>\
                         <input class='form-control' type='text' name='raca' value='"  +data['pets'][i]['fields']['raca']+ "'>\
@@ -67,9 +71,50 @@ function add_pet(){
                         <input class='form-control' type='text' name='idade' value='"  +data['pets'][i]['fields']['idade']+ "'>\
                     </div>\
                     <div class='col-md'>\
-                        <input class='btn btn-success' type='submit'>\
+                        <input class='btn btn-success' type='submit' value='Salvar'>\
+                    </div>\
+                    </form>\
+                    <div class='col-md'>\
+                        <a class= 'btn btn-danger' href='/clientes/excluir_pet/" +  data['pets'][i]['id'] + "'>EXCLUIR</a>\
                     </div>\
                 </div><br>"
         }
     })
  }      
+
+ function update_cliente(){
+    nome=document.getElementById('nome').value
+    sobrenome=document.getElementById('sobrenome').value
+    email=document.getElementById('email').value
+    cpf=document.getElementById('cpf').value
+    id=document.getElementById('id').value
+
+    fetch('/clientes/update_cliente/' +  id,{
+        method: 'POST', 
+        headers:{
+            'X-CSRFToken': csrf_token,
+        },
+        body: JSON.stringify({
+            nome: nome, 
+            sobrenome:sobrenome,
+            email:email,
+            cpf:cpf,
+        })
+
+    }).then(function(result){
+        return result.json()
+    }).then(function(data){
+
+        if(data['status']=='200'){
+            nome= data['nome']
+            sobrenome= data['sobrenome']
+            email= data['email']
+            cpf= data['cpf']
+            console.log('Dados alterados com sucesso')
+        }else{
+            console.log('Ocorreu algum erro')
+        }
+        
+    })
+
+ }
